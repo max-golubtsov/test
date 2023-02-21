@@ -1,0 +1,124 @@
+.sort-select.custom {
+    width: 25%;
+    margin: 0!important;
+}
+
+.sort-select.custom .ik_select_link.common_select-link {
+    display: none;
+}
+
+.sort-select .sort-block {
+    display: flex;
+    padding: 0;
+}
+
+.sort-select .selectric {
+    background-color: #fff;
+    border: 2px solid #b4610f;
+    border-radius: 3px;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: none;
+}
+
+.sort-select .selectric-focus .selectric {
+    border-color: #b4610f;
+}
+
+.sort-select .selectric-open .selectric,
+.sort-select .selectric-hover .selectric{
+    border-color: #b4610f;
+}
+.sort-select .selectric-open .selectric {
+    border-radius: 3px 3px 0 0;
+}
+
+.sort-select .selectric .label {
+    margin: 0;
+    text-align: left;
+    font-weight: inherit;
+    font-size: 13px;
+    line-height: 26px;
+    background: #fff;
+}
+
+.sort-select .selectric-items {
+    width: 100% !important;
+    background-color: #fff;
+    border: 2px solid #b4610f;
+    border-radius: 0 0 3px 3px;
+    top: 96%;
+    border-top: none;
+    box-shadow: none;
+}
+
+.sort-select .selectric-items ul {
+    margin: 0;
+}
+
+.sort-select .selectric-items li {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.sort-select .selectric-items li.highlighted,
+.sort-select .selectric-items li:hover{
+    background: #b4610f;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.sort-select .selectric-items li:before {
+    content: "";
+}
+
+.sort-select .selectric .check_button:hover {
+    background: none;
+}
+
+@media (max-width: 992px) {
+    .sort-select.custom {
+        width: 50%;
+    }
+}
+
+.active-sort {
+    display: block;
+    color: #000;
+    float: left;
+    font-size: 14px;
+    width: 100%;
+    padding: 4px 10px;
+    background-color: #fff;
+    border: 2px solid #b4610f;
+    border-radius: 3px;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: none;
+}
+
+.fancybox-inner .sort-select div.sort-block {
+    display: block;
+    color: #000;
+    float: left;
+    font-size: 14px;
+    width: 100%;
+}
+
+.fancybox-inner .sort-block .sort-option {
+    display: block;
+    color: #000;
+    float: left;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.fancybox-inner .sort-block .sort-option.active,
+.fancybox-inner .sort-block .sort-option:hover {
+    background: #b4610f;
+    color: #fff;
+}
